@@ -15,7 +15,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>App Version: v0.1</source>
+        <source>App Version: v0.2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -40,10 +40,6 @@
     </message>
     <message>
         <source>Developed by Shouko</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Licensed under MIT: https://github.com/shoukolate/Switch-My-Slot-SailfishOS</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

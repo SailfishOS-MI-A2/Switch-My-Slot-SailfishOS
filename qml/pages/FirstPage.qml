@@ -24,7 +24,7 @@ Page {
                 font.pixelSize: 45
             }
             Label {
-                text: qsTr("App Version: v0.1")
+                text: qsTr("App Version: v0.2")
                 x: Theme.horizontalPageMargin
                 color: Theme.secondaryHighlightColor
             }
@@ -41,6 +41,7 @@ Page {
                 text: qsTr("Current slot suffix: ")
                 color: Theme.secondaryHighlightColor
             }
+
             Button {
                 id: switchSlotButton
                 x: Theme.horizontalPageMargin
@@ -48,9 +49,10 @@ Page {
                 text: qsTr("Switch slot")
                 color: Theme.secondaryHighlightColor
                 onClicked: {
-                            python.switchSlotFunc();
-                        }
+                    python.switchSlotFunc();
+                }
             }
+
             Label {
                 id: currentSlotLabel
                 x: Theme.horizontalPageMargin
@@ -69,9 +71,10 @@ Page {
                 id: openRepo
                 x: Theme.horizontalPageMargin
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: qsTr("Licensed under MIT: https://github.com/shoukolate/Switch-My-Slot-SailfishOS")
                 color: Theme.secondaryHighlightColor
-                font.pixelSize: 32
+                font.pixelSize: 45
+                text: "<a href='https://github.com/shoukolate/Switch-My-Slot-SailfishOS'>Licensed under MIT</a>"
+                onLinkActivated: Qt.openUrlExternally(link)
             }
 
             Python {

@@ -9,8 +9,8 @@ Name:       Switch-My-Slot
 # << macros
 
 Summary:    Switch My Slot
-Version:    0.1
-Release:    1
+Version:    0.2
+Release:    2
 Group:      Qt/Qt
 License:    LICENSE
 URL:        http://example.org/
