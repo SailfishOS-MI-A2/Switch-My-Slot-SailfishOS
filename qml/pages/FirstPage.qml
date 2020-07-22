@@ -24,7 +24,7 @@ Page {
                 font.pixelSize: 45
             }
             Label {
-                text: qsTr("App Version: v0.2")
+                text: qsTr("App Version: v0.3")
                 x: Theme.horizontalPageMargin
                 color: Theme.secondaryHighlightColor
             }
@@ -73,7 +73,7 @@ Page {
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: Theme.secondaryHighlightColor
                 font.pixelSize: 45
-                text: "<a href='https://github.com/shoukolate/Switch-My-Slot-SailfishOS'>Licensed under MIT</a>"
+                text: "<a href='https://github.com/SailfishOS-MI-A2/Switch-My-Slot-SailfishOS'>Licensed under MIT</a>"
                 onLinkActivated: Qt.openUrlExternally(link)
             }
 
