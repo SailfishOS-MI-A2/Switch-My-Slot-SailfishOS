@@ -9,11 +9,11 @@ Name:       Switch-My-Slot
 # << macros
 
 Summary:    Switch My Slot
-Version:    0.2
-Release:    2
+Version:    0.3
+Release:    3
 Group:      Qt/Qt
-License:    LICENSE
-URL:        http://example.org/
+License:    MIT
+URL:        https://github.com/SailfishOS-MI-A2/Switch-My-Slot-SailfishOS
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  Switch-My-Slot.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
@@ -25,7 +25,7 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-Short description of my Sailfish OS Application
+Switch My Slot is a SailfishOS app that helps you switch between android system A & system B slots if you are dualbooting with Android OS on an Android A/B device. This app saves you from the hassle of needing to use ssh/terminal/twrp while wanting to switch to another Android slot.
 
 
 %prep

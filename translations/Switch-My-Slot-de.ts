@@ -15,7 +15,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>App Version: v0.2</source>
+        <source>App Version: v0.3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
