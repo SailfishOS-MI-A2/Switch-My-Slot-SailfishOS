@@ -15,6 +15,8 @@ https://www.xda-developers.com/how-a-b-partitions-and-seamless-updates-affect-cu
 
 [Checkout Android version](https://github.com/shoukolate/Switch-My-Slot-Android)
 
+[Checkout Ubuntu Touch version](https://github.com/ubports-xiaomi-sdm660/Switch-My-Slot-Ubuntu-Touch)
+
 <p align="center">
   <img src="https://github.com/SailfishOS-MI-A2/Switch-My-Slot-SailfishOS/raw/master/Screenshots/1.png">
 </p>
